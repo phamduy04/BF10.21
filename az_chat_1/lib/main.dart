@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
-      providers: [
+      providers: [ 
         ChangeNotifierProvider<FirebaseAuthController>(create: (_)=> FirebaseAuthController()),
       ],
       child: MaterialApp(

@@ -8,7 +8,7 @@ class VideoListProvider with ChangeNotifier {
    {
      this.videoList = videoList;
      print("Độ dài dữ liệu trên Provider: " + this.videoList.length.toString());
-     notifyListeners();
+     //notifyListeners();
 
    }
 

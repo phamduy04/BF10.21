@@ -68,7 +68,8 @@ class FirebaseAuthController with ChangeNotifier{
     _unLoading();
   }
 
-  Future<bool> createAccount({required String name,
+  Future<bool> createAccount({
+    required String name,
     required String email,
     required String password,
     File? file}) async {

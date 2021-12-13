@@ -20,6 +20,7 @@ final String videoIcon = "assets/icons/video.svg";
 final String visibleIcon = "assets/icons/visible.svg";
 
 final String amzChatIcon = "assets/images/amz_chat.png";
+
 final String placeholderImage = "assets/images/image-placeholder.jpeg";
 
 TextStyle txtRegular(double size, [Color? color]) =>
